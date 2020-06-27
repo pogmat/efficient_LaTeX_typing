@@ -1,0 +1,59 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "us(altgr-intl)"
+        
+    name[Group1]="LaTeX math";
+
+    key <AE01> { [], [           U27E8,           U226A,            NoSymbol,        NoSymbol ] };
+    key <AE02> { [], [           U27E9,           U226B,            NoSymbol,        NoSymbol ] };
+    key <AE03> { [], [           U2211,           U220F,            NoSymbol,        NoSymbol ] };
+    key <AE04> { [], [           U00B1,           U2213,            NoSymbol,        NoSymbol ] };
+    key <AE05> { [], [           U2295,           U2297,            NoSymbol,        NoSymbol ] };
+    key <AE06> { [], [           U2208,           U2209,            NoSymbol,        NoSymbol ] };
+    key <AE07> { [], [           U222B,           U222E,            NoSymbol,        NoSymbol ] };
+    key <AE08> { [], [           U221E,           U221D,            NoSymbol,        NoSymbol ] };
+    key <AE09> { [], [           U2229,           U2227,            NoSymbol,        NoSymbol ] };
+    key <AE10> { [], [           U222A,           U2228,            NoSymbol,        NoSymbol ] };
+    key <AE11> { [], [           U223C,           U2243,            NoSymbol,        NoSymbol ] };
+    key <AE12> { [], [           U2260,           U2261,            NoSymbol,        NoSymbol ] };
+     
+    key <AD01> { [], [           U2202,           U2207,            NoSymbol,        NoSymbol ] };
+    key <AD02> { [], [     Greek_omega,     Greek_OMEGA,            NoSymbol,        NoSymbol ] };
+    key <AD03> { [], [           U03F5,           U2203,       Greek_epsilon,            U2204] };
+    key <AD04> { [], [       Greek_rho,        NoSymbol,            NoSymbol,        NoSymbol ] };
+    key <AD05> { [], [       Greek_tau,        NoSymbol,            NoSymbol,        NoSymbol ] };
+    key <AD06> { [], [   Greek_upsilon,   Greek_UPSILON,            NoSymbol,        NoSymbol ] };
+    key <AD07> { [], [     Greek_theta,     Greek_THETA,               U03D1,        NoSymbol ] };
+    key <AD08> { [], [      Greek_iota,           U0131,            NoSymbol,        NoSymbol ] };
+    key <AD09> { [], [           U2205,        NoSymbol,            NoSymbol,        NoSymbol ] };
+    key <AD10> { [], [        Greek_pi,        Greek_PI,            NoSymbol,        NoSymbol ] };
+    key <AD11> { [], [        NoSymbol,        NoSymbol,            NoSymbol,        NoSymbol ] };
+    key <AD12> { [], [        NoSymbol,        NoSymbol,            NoSymbol,        NoSymbol ] };
+
+    key <AC01> { [], [     Greek_alpha,           U2200,            NoSymbol,        NoSymbol ] };
+    key <AC02> { [], [     Greek_sigma,     Greek_SIGMA,            NoSymbol,        NoSymbol ] };
+    key <AC03> { [], [     Greek_delta,     Greek_DELTA,            NoSymbol,        NoSymbol ] };
+    key <AC04> { [], [           U03D5,       Greek_PHI,           Greek_phi,        NoSymbol ] };
+    key <AC05> { [], [     Greek_gamma,     Greek_GAMMA,            NoSymbol,        NoSymbol ] };
+    key <AC06> { [], [       Greek_eta,           U210F,            NoSymbol,        NoSymbol ] };
+    key <AC07> { [], [        Greek_xi,        Greek_XI,            NoSymbol,        NoSymbol ] };
+    key <AC08> { [], [     Greek_kappa,           U0237,            NoSymbol,        NoSymbol ] };
+    key <AC09> { [], [    Greek_lambda,    Greek_LAMBDA,            NoSymbol,        NoSymbol ] };
+    key <AC10> { [], [           U2194,           U21D4,            NoSymbol,        NoSymbol ] };
+    key <AC11> { [], [           U2192,           U21D2,            NoSymbol,        NoSymbol ] };
+    key <TLDE> { [], [           U2020,           U2016,            NoSymbol,        NoSymbol ] };
+    
+    key <AB01> { [], [      Greek_zeta,        NoSymbol,            NoSymbol,        NoSymbol ] };
+    key <AB02> { [], [       Greek_chi,           U00D7,            NoSymbol,        NoSymbol ] };
+    key <AB03> { [], [       Greek_psi,       Greek_PSI,            NoSymbol,        NoSymbol ] };
+    key <AB04> { [], [        NoSymbol,           U2282,            NoSymbol,        NoSymbol ] };
+    key <AB05> { [], [      Greek_beta,           U2283,            NoSymbol,        NoSymbol ] };
+    key <AB06> { [], [        Greek_nu,           U2286,            NoSymbol,        NoSymbol ] };
+    key <AB07> { [], [        Greek_mu,           U2287,            NoSymbol,        NoSymbol ] };
+    key <AB08> { [], [           U2218,           U2264,            NoSymbol,        NoSymbol ] };
+    key <AB09> { [], [           U22C5,           U2265,               U2022,        NoSymbol ] };
+    key <AB10> { [], [           U2026,           U21A6,            NoSymbol,        NoSymbol ] };
+        
+    key <MENU> { [ ISO_Group_Latch ] }; 
+};

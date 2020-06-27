@@ -1,0 +1,40 @@
+\documentclass[a4paper]{article}
+\usepackage[english]{babel}
+\usepackage{unicode-math}
+
+\title{An Example}
+\author{Someone}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+There are many beautiful formuale in Mathematics; some of them are
+\begin{itemize}
+    \item $e^{\iota\pi} + 1 = 0$;
+    \item $\sin^2 \theta + \cos^2 \theta = 1$;
+    \item $\mathcal{L}_X \omega = \iota_X\mathrm{d}\omega + \mathrm{d}\iota_X \omega \,, \quad \forall\, X \in \mathcal{X}(M)\,,\; \omega \in \Omega^\bullet(M)$;
+    \item $\int_R \mathrm{d}\omega = \int_{\partial R} \omega$.
+\end{itemize}
+
+There are also longer formulae which deserve more attention:
+$$
+\frac{\mathrm{d}}{\mathrm{d}x} \int_{a(x)}^{b(x)} f(t, x)\, \mathrm{d}t = f(b(x))b'(x) - f(a(x))a'(x) + \int_{a(x)}^{b(x)}\frac{\partial f(x, t)}{\partial x}\, \mathrm{d}t\,,
+$$
+which holds under certain regularity conditions.
+
+Another nice formula for holomorphic functions $f: U \rightarrow \mathbb{C}$:
+$$
+f(a) = \frac{1}{2\pi\imath} \oint_\gamma \frac{f(z)}{z-a}\mathrm{d}z\,.
+$$
+
+Also Physics has some nice formulae. One is
+$$
+\imath\hslash\frac{\partial}{\partial t} |\psi(t)\rangle = \widehat{H}(t)|\psi(t)\rangle \,,
+$$
+another is
+$$
+G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}\,.
+$$
+
+\end{document}
