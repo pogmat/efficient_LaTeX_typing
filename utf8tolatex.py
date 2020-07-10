@@ -5,7 +5,7 @@ from sys import stdout, stderr
 
 
 SUBSTITUTIONS = {"†": "\\dagger",
-                 "‖": "\\|",#‖
+                 "‖": "\\|",
                  "⟨": "\\langle",
                  "≪": "\\ll",
                  "⟩": "\\rangle",
